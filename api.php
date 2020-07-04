@@ -2,6 +2,9 @@
 
 error_reporting(0);
 
+define('BOT_TOKEN', '1361966481:AAG4OT9j_8xe8FsvW1Xz7UDEleowv3vm-go');
+define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+
 if (isset($_GET['bin'])) {
 	$bin=substr($_GET['bin'], 0,6);
 
